@@ -1,6 +1,6 @@
 let _instance_ = null; // _instance_ will not be exposed to outside.
 
-class SingletonClass {
+export class SingletonClass {
 	constructor(name){
 		if(!_instance_){
 			this._name = name;
@@ -14,5 +14,3 @@ class SingletonClass {
 		return this._name;
 	}
 }
-
-export { SingletonClass };
