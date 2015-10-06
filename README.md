@@ -16,3 +16,19 @@ Make sure you have Nodejs. If you don't have one, use Homebrew to get one `brew 
 Use `node Design-Patterns-In-ES6/Singleton/compiled/Main.js` to run whichever example you want.
 
 By the time it was written, Nodejs still not fully support ES6, so I use Babel to transpile codes into ES5.  
+
+## To Do
+* Builder
+* Filter
+* Adapter
+* Bridge
+* Composite
+* Proxy
+* Interpreter
+* Iterator
+* Memento
+* State
+* Strategy
+* Template
+* Visitor
+* Chain of Responsibility
