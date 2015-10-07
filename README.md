@@ -18,11 +18,7 @@ Use `node Design-Patterns-In-ES6/Singleton/compiled/Main.js` to run whichever ex
 By the time it was written, Nodejs still not fully support ES6, so I use Babel to transpile codes into ES5.  
 
 ## To Do
-* Builder
 * Filter
-* Adapter
-* Bridge
-* Composite
 * Proxy
 * Interpreter
 * Iterator
@@ -31,4 +27,3 @@ By the time it was written, Nodejs still not fully support ES6, so I use Babel t
 * Strategy
 * Template
 * Visitor
-* Chain of Responsibility
