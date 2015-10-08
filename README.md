@@ -13,17 +13,6 @@ By the way, I write this base on [Learning JavaScript Design Patterns](https://g
 ## Run Examples
 Make sure you have Nodejs. If you don't have one, use Homebrew to get one `brew install nodejs`.
 
-Use `node Design-Patterns-In-ES6/Singleton/compiled/Main.js` to run whichever example you want.
+Use `node Design-Patterns-In-ES6/Creational_Patterns/Singleton/compiled/Main.js` to run whichever example you want.
 
 By the time it was written, Nodejs still not fully support ES6, so I use Babel to transpile codes into ES5.  
-
-## To Do
-* Filter
-* Proxy
-* Interpreter
-* Iterator
-* Memento
-* State
-* Strategy
-* Template
-* Visitor
