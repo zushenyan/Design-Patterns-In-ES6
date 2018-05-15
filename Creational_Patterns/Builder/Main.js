@@ -18,14 +18,17 @@ class LaptopBuilder {
 
 	setScreenSize(screenSize){
 		this._laptop["ScreenSize"] = screenSize;
+		return this
 	}
 
 	setMemory(memory){
 		this._laptop["Memory"] = memory;
+		return this
 	}
 
 	setCaseStyle(caseStyle){
 		this._laptop["CaseStyle"] = caseStyle;
+		return this
 	}
 
 	getResult(){
@@ -33,8 +36,8 @@ class LaptopBuilder {
 	}
 }
 
-let builder = new LaptopBuilder();
-builder.setScreenSize("14 inch");
-builder.setMemory("4 GB");
-builder.setCaseStyle("Rainbow Case");
-console.log(builder.getResult());
+let builder = new LaptopBuilder().setScreenSize("14 inch")
+                                 .setMemory("4 GB")
+                                 .setCaseStyle("Rainbow Case")
+                                 .getResult();
+console.log(builder);
